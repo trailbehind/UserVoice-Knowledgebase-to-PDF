@@ -1,7 +1,11 @@
 UserVoice-Knowledgebase-to-PDF
 ==============================
 
-Requirements
+###Manual PDFs###
+
+ * put manual PDFs on S3: s3cmd put manual.pdf s3://com.gaiagps.static/
+
+###Requirements###
 
  * PIL (pip install pil)
 
