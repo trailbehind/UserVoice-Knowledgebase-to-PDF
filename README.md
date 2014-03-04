@@ -1,6 +1,10 @@
 UserVoice-Knowledgebase-to-PDF
 ==============================
 
+Requirements
+
+ * PIL (pip install pil)
+
 A Python script that turns a UserVoice knowledgebase into a PDF.
 
 This script has only been tested on two sites, and you have to configure it in the script itself
