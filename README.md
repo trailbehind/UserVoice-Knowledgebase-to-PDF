@@ -1,9 +1,15 @@
 UserVoice-Knowledgebase-to-PDF
 ==============================
 
-###Manual PDFs###
+###Run for Gaia GPS###
+1) Make sure lines 43-46 are set correctly
 
- * put manual PDFs on S3: s3cmd put manual.pdf s3://com.gaiagps.static/
+2) run the script, to create manual.pdf:
+   python uservoiceToPDF.py
+
+3) ask Anna to upload the new file to gaiagps.com
+
+or put manual PDFs on S3: s3cmd put manual.pdf s3://com.gaiagps.static/
 
 ###Requirements###
 
